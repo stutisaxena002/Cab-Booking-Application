@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bglogin"
+    tools:context=".adminLogin">
+
+        <TextView
+            android:layout_width="340sp"
+            android:layout_height="wrap_content"
+            android:text="ADMIN LOGIN"
+            android:fontFamily="@font/sunny"
+            android:background="@drawable/rounded_corner"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="50sp"/>
+        <EditText
+            android:layout_width="340sp"
+            android:layout_marginTop="15sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:hint="Enter Username"
+            android:textColor="@color/black"
+
+            android:textColorHint="@color/slate"
+            android:textSize="30sp"
+
+            android:id="@+id/adminUsername"/>
+        <EditText
+            android:layout_width="340sp"
+            android:layout_marginTop="15sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/slate"
+            android:id="@+id/adminPassword"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+
+            android:layout_marginTop="15sp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:id="@+id/btnAdminLogin"
+            android:background="@drawable/loginicon"
+            />
+
+
+
+
+</LinearLayout>

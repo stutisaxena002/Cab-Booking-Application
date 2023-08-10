@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mapDriver"
+    android:orientation="vertical"
+    android:background="@color/slateblue"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:paddingLeft="2sp"
+        android:paddingRight="2sp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/txt_driver_num"
+        android:background="@drawable/rounded_white"
+        android:fontFamily="@font/sunny"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+
+        >
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="614dp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/logout_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/logout_icon"
+        android:contentDescription="logout"
+        android:layout_margin="2dp" />
+
+</LinearLayout>

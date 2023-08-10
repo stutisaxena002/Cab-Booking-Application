@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">olaApp</string>
+    <string name="title_activity_map_driver">mapDriver</string>
+    <string name="title_activity_map_user">mapUser</string>
+    <string name="title_activity_abc">abc</string>
+    <string name="title_activity_map_find_driver">mapFindDriver</string>
+</resources>

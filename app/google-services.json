@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605334235271",
+    "project_id": "olaapp-72794",
+    "storage_bucket": "olaapp-72794.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605334235271:android:ea21ca509c6d48fb9b7022",
+        "android_client_info": {
+          "package_name": "com.example.olaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605334235271-kl3uhmv4nsefb2p11nhd1j5p1mvki4ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtlhaErD-ao6hjZVyibKmxBppENOIB9v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605334235271-kl3uhmv4nsefb2p11nhd1j5p1mvki4ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

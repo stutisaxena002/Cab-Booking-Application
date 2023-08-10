@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/slateblue"
+    tools:context=".mapUser"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:background="@drawable/rounded_white"
+        android:fontFamily="@font/sunny"
+        android:layout_marginBottom="5sp"
+        android:padding="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_user_email"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="@color/white"
+        android:layout_gravity="center_vertical">
+
+        <EditText
+
+            android:id="@+id/destinationName"
+            android:layout_width="320dp"
+            android:paddingLeft= "3sp"
+            android:layout_marginTop="5sp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Enter Destination"
+            android:textSize="25sp" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDestination"
+            android:layout_gravity="center"
+            android:src="@drawable/go_icon"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+
+        >
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="477dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Drivers"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:background="@drawable/rounded_white"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:id="@+id/btnFindDrivers"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/logout_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginRight="5sp"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/logout_icon"
+        android:contentDescription="logout"
+    />
+
+
+
+</LinearLayout>
