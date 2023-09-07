@@ -1,3 +1,5 @@
+It is a visible application that is abbreviated from that of ola app but with added extra miscellaneous features to enhance it's credibility.
+
 It is an android application with the use of java and firebase.
 
 This app is a full fledged application for Customer Driver Booking for cab.
