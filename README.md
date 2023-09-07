@@ -1,4 +1,3 @@
-# Ola_App_Clone
 It is an android application with the use of java and firebase.
 
 This app is a full fledged application for Customer Driver Booking for cab.
